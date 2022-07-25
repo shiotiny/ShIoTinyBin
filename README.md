@@ -45,19 +45,19 @@
 	# ./esptool.py -p /dev/ttyUSB2 -b 115200 write_flash -ff 40m -fm qio -fs 8m 0x000000 esp-07-shiotiny.bin
 
     Размер FLASH 2M: прошивка образа с адреса 0x00000000 (1копия) и с адреса 0x00100000 (2копия)
-	# ./esptool.py -p /dev/ttyUSB2 -b 115200 write_flash -ff 40m -fm qio -fs 8m 0x000000 esp-07-shiotiny.bin
-	# ./esptool.py -p /dev/ttyUSB2 -b 115200 write_flash -ff 40m -fm qio -fs 8m 0x100000 esp-07-shiotiny.bin
+	# ./esptool.py -p /dev/ttyUSB2 -b 115200 write_flash -ff 40m -fm qio -fs 16m 0x000000 esp-07-shiotiny.bin
+	# ./esptool.py -p /dev/ttyUSB2 -b 115200 write_flash -ff 40m -fm qio -fs 16m 0x100000 esp-07-shiotiny.bin
 
     Размер FLASH 4M: прошивка образа с адреса 0x00000000 (1копия) и с адреса 0x00300000 (2копия)
-	# ./esptool.py -p /dev/ttyUSB2 -b 115200 write_flash -ff 40m -fm qio -fs 8m 0x000000 esp-07-shiotiny.bin
-	# ./esptool.py -p /dev/ttyUSB2 -b 115200 write_flash -ff 40m -fm qio -fs 8m 0x300000 esp-07-shiotiny.bin
+	# ./esptool.py -p /dev/ttyUSB2 -b 115200 write_flash -ff 40m -fm qio -fs 32m 0x000000 esp-07-shiotiny.bin
+	# ./esptool.py -p /dev/ttyUSB2 -b 115200 write_flash -ff 40m -fm qio -fs 32m 0x300000 esp-07-shiotiny.bin
 
     Размер FLASH 8M: прошивка образа с адреса 0x00000000 (1копия) и с адреса 0x00700000 (2копия)
-	# ./esptool.py -p /dev/ttyUSB2 -b 115200 write_flash -ff 40m -fm qio -fs 8m 0x000000 esp-07-shiotiny.bin
-	# ./esptool.py -p /dev/ttyUSB2 -b 115200 write_flash -ff 40m -fm qio -fs 8m 0x700000 esp-07-shiotiny.bin
+	# ./esptool.py -p /dev/ttyUSB2 -b 115200 write_flash -ff 40m -fm qio -fs 64m 0x000000 esp-07-shiotiny.bin
+	# ./esptool.py -p /dev/ttyUSB2 -b 115200 write_flash -ff 40m -fm qio -fs 64m 0x700000 esp-07-shiotiny.bin
 
     Размер FLASH 16M: прошивка образа с адреса 0x00000000 (1копия) и с адреса 0x00F00000 (2копия)
-	# ./esptool.py -p /dev/ttyUSB2 -b 115200 write_flash -ff 40m -fm qio -fs 8m 0x000000 esp-07-shiotiny.bin
-	# ./esptool.py -p /dev/ttyUSB2 -b 115200 write_flash -ff 40m -fm qio -fs 8m 0xF00000 esp-07-shiotiny.bin
+	# ./esptool.py -p /dev/ttyUSB2 -b 115200 write_flash -ff 40m -fm qio -fs 128m 0x000000 esp-07-shiotiny.bin
+	# ./esptool.py -p /dev/ttyUSB2 -b 115200 write_flash -ff 40m -fm qio -fs 128m 0xF00000 esp-07-shiotiny.bin
 
 -----------------------------------------------------------------------------------------------------------------
